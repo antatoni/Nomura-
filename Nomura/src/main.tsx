@@ -4,6 +4,9 @@ import './index.css';
 import App from './App.tsx';
 import { SessionProvider } from './contexts/SessionStorage.tsx';
 import { createBrowserRouter, RouterProvider } from 'react-router';
+import Register from './components/Register.tsx';
+import Login from './components/Login.tsx';
+import Dashboard from './components/Dashboard.tsx';
 
 const router = createBrowserRouter([
   {
